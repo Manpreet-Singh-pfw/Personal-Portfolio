@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Manpreet Singh</title>
+
+    <!-- My favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- css file-->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!-- Sidebar -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/IMG_6233.jpeg"
+              alt="Profile Picture"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Manpreet Singh">Manpreet Singh</h1>
+
+            <p class="title">Front-End Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Contact Me</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:singm06@pfw.edu" class="contact-link"
+                  >singm06@pfw.edu</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12608043221" class="contact-link"
+                  >+1 (260) 804-3221</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <a href="https://maps.app.goo.gl/4cAo4EDHviTWKXHMA"
+                  ><address>Fort Wayne, Indiana</address></a
+                >
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/-manpreet-singh-/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://github.com/Manpreet-Singh-pfw"
+                class="social-link"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="mailto:singm06@pfw.edu" class="social-link">
+                <ion-icon name="mail"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- main-component -->
+
+      <div class="main-content">
+        <!-- Navigation Bar -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- About Me Section -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Greetings! I'm Manpreet Singh, and I'm on a mission to secure a
+              full-time position as a front-end developer. I come to you with a
+              strong set of skills, a wealth of knowledge, and an unwavering
+              passion for crafting exceptional web experiences. Currently, I'm
+              in the final stages of completing my Master of Science in Computer
+              Science at Purdue University Fort Wayne, with graduation expected
+              in December 2023.
+            </p>
+
+            <p>
+              What sets me apart is my ability to adapt to new challenges, my
+              commitment to staying updated with the latest web trends to ensure
+              my work is of the highest quality, and my talent for collaborative
+              problem-solving and innovative thinking. These qualities, combined
+              with my deep love for technological innovation, make me an ideal
+              fit for your team. I'm genuinely excited about the prospect of
+              bringing my blend of technical expertise and creative flair to
+              your organization. I'm eager to dive in and contribute not only to
+              the success of your projects but also to the overall prosperity of
+              your company. Let's connect and discuss how we can work together!
+            </p>
+          </section>
+
+          <!-- Certifications -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Certifications</h3>
+
+            <ul class="service-list">
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/SBK8BTMDVV3C"
+              >
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <img
+                      src="./assets/images/icon-dev.svg"
+                      alt="Web development icon"
+                      width="40"
+                    />
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">React Basics</h4>
+
+                    <p class="service-item-text">
+                      This course taught me how to use React.js to build
+                      scalable web applications, including creating reusable
+                      components, passing data between them with props, building
+                      dynamic and interactive pages, handling forms, and
+                      ultimately constructing a complete React application.
+                    </p>
+                  </div>
+                </li>
+              </a>
+
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/KEBJ7CNTXUBC"
+              >
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <img
+                      src="./assets/images/icon-dev.svg"
+                      alt="Web development icon"
+                      width="40"
+                    />
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">
+                      Programming with JavaScript
+                    </h4>
+
+                    <p class="service-item-text">
+                      I learned the fundamental concepts of web development with
+                      JavaScript, including working with functions, objects,
+                      arrays, variables, data types, and manipulating the HTML
+                      DOM. I also discovered how to use modern JavaScript
+                      technologies for interactivity and gained insights into
+                      testing code with Jest.
+                    </p>
+                  </div>
+                </li>
+              </a>
+
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/5LYZHVVKSSHB"
+              >
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <img
+                      src="./assets/images/icon-dev.svg"
+                      alt="Web development icon"
+                      width="40"
+                    />
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">
+                      Introduction to Front-End Development
+                    </h4>
+
+                    <p class="service-item-text">
+                      It taught me day-to-day responsibilities of a web
+                      developer and a general understanding of the core &
+                      underlying technologies that power the internet. Learned
+                      how front-end developers create websites and applications
+                      that work well and are easy to maintain.
+                    </p>
+                  </div>
+                </li>
+              </a>
+
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/V4AMLYRJ7B4J"
+              >
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <img
+                      src="./assets/images/icon-dev.svg"
+                      alt="Web development icon"
+                      width="40"
+                    />
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">
+                      Html, CSS and JavaScript for Web Developers
+                    </h4>
+
+                    <p class="service-item-text">
+                      I learned the fundamentals of web development, including
+                      HTML and CSS for creating web pages. I also learned about
+                      responsive design, making pages adapt to different screen
+                      sizes. Lastly, I gained an introduction to JavaScript for
+                      building interactive web applications.
+                    </p>
+                  </div>
+                </li>
+              </a>
+
+              <a
+                href="https://www.coursera.org/account/accomplishments/specialization/certificate/EPSTNPMQETLH"
+              >
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <img
+                      src="./assets/images/icon-dev.svg"
+                      alt="Web development icon"
+                      width="40"
+                    />
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">
+                      Python For Everybody Specialization
+                    </h4>
+
+                    <p class="service-item-text">
+                      It provided me a foundational understanding of Python and essential programming concepts. As I advanced through the program, I gained expertise in data manipulation, networked application development, and database management using Python. In the their Capstone Project, I put my knowledge into practice, creating applications for data retrieval and visualization.</p>
+                  </div>
+                </li>
+              </a>
+            </ul>
+          </section>
+        </article>
+
+        <!-- My Resume -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <!-- My Education -->
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Master of Science in Computer Science
+                </h4>
+                <span>Purdue University Fort Wayne, Indiana, USA</span>
+                <span>2022-2023</span>
+
+                <!-- <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p> -->
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelor of Technology in Computer Science and Engineering
+                </h4>
+                <span>Guru Nanak Dev Engineering College, Punjab, India</span>
+                <span>2017 — 2021</span>
+
+                <!-- <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p> -->
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <!-- My Experience -->
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Front-End Web Developer Intern</h4>
+
+                <span>May,2023-August,2023</span>
+
+                <p class="timeline-text">
+                  I collaborated within cross-functional teams to contribute to
+                  the development of a platform focused on empowering student
+                  athletes. My responsibilities included crafting an intuitive
+                  landing page utilizing a variety of components, constructed
+                  with proficiency in HTML, CSS, JavaScript, and React.js. I
+                  embraced the methodology of Test-Driven Development (TDD) to
+                  ensure the highest quality of code. This experience honed my
+                  skills as a front-end developer and provided valuable insights
+                  into project coordination as well as user-centric design
+                  dynamics within a dynamic startup environment, consistently
+                  meeting project deadlines and delivering fully functional
+                  features.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- My Skills -->
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CSS</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JavaScript</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">BootStrap</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">UI/UX</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Git & Github</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web APIs</h5>
+                  <data value="65">65%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Jest</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- My Portfolio -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>React</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>API</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>JavaScript</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Bootstrap</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>React</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>API</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>JavaScript</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Bootstrap</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="react"
+              >
+                <a href="https://manpreet-singh-pfw.github.io/Foodie/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Foodie.png"
+                      alt="Foodie"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Foodie</h3>
+
+                  <p class="project-category">React</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="api"
+              >
+                <a href="https://manpreet-singh-pfw.github.io/Movie-Search/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/movieSearch.png"
+                      alt="Movie-Search"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Movie Search</h3>
+
+                  <p class="project-category">API</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="javascript"
+              >
+                <a href="https://manpreet-singh-pfw.github.io/Drum-Kit/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/drumKit.png"
+                      alt="Drum Kit"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Drum Kit</h3>
+
+                  <p class="project-category">JavaScript</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="javascript"
+              >
+                <a href="https://manpreet-singh-pfw.github.io/Dice-Game/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      class="project-img"
+                      src="./assets/images/diceGame.png"
+                      alt="Dice Game"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Dice Game</h3>
+
+                  <p class="project-category">JavaScript</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="bootstrap"
+              >
+                <a href="https://manpreet-singh-pfw.github.io/Tindog/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/tinDog.png"
+                      alt="tindog"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">tindog</h3>
+
+                  <p class="project-category">Bootstrap</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="all"
+              >
+                <a href="https://manpreet-singh-pfw.github.io/CSS-My-Site/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/CSS-mySite.png"
+                      alt="my-site"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">CSS-My Site</h3>
+
+                  <p class="project-category">HTML & CSS</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Contact Form  -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192471.7016072524!2d-85.31571324689271!3d41.082754395788115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8815e4ddff22814b%3A0x80077b147642f793!2sFort%20Wayne%2C%20IN!5e0!3m2!1sen!2sus!4v1698634375614!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Me</h3>
+
+            <form
+              action="mailto:singm06@pfw.edu"
+              method="post"
+              enctype="text/plain"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!-- JavaScript File -->
+    <script src="./js/script.js"></script>
+
+    <!-- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
+
+<!-- Manpreet Singh -->
